@@ -1,0 +1,103 @@
+#footer-top{
+    padding-top: 60px;
+    .top{
+        .content{
+            h5{
+                color: #3F3F3F;
+                font-family: "Open Sans", Sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px;
+                margin-top: 25px;
+            }
+        }
+        .content{
+            h2{
+                color: #3F3F3F;
+                font-family: "Raleway", Sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 24px;
+            }
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    a{
+                        font-family: "Raleway", Sans-serif;
+                        font-size: 14px;
+                        line-height: 34px;
+                        text-decoration: none;
+                        color: #3F3F3F;
+                        transition: all .3s ease;
+                        &:hover{
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+        .contact{
+            h2{
+                color: #3F3F3F;
+                font-family: "Raleway", Sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+            .adress{
+                display: flex;
+                padding: 16px 0;
+                img{
+                    width: 19px;
+                    height: 19px;
+                    align-self: center;
+                }
+                a{
+                    text-decoration: none;
+                    color: #3F3F3F;
+                }
+            }
+            .telephone{
+                padding: 16px 0;
+                img{
+                    width: 19px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #3F3F3F;
+                    transition: all .3s ease;
+                    &:hover{
+                        color: $mainColor;
+                    }
+                }
+            }
+            .email{
+                padding: 16px 0;
+                img{
+                    width: 19px;
+                }
+                a{
+                    text-decoration: none;
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+    .bottom{
+        .content{
+            border-top: 1px solid #F4F4F4;
+            text-align: center;
+            padding: 40px 0;
+            color: #ABABB0;
+            transition: all .3 ease;
+            a{
+                text-decoration: none;
+                color: #ABABB0;
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}

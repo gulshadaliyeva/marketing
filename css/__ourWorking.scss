@@ -1,0 +1,35 @@
+#ourWorking{
+    padding: 60px 0;
+    .item{
+        h1{
+            color: #514899;
+            font-size: 52px;
+            font-weight: 800;
+        }
+        p{
+            margin: 35px 60px 35px 0;
+        }
+        .button{
+            border: 1px solid $mainColor;
+            padding: 15px 40px;
+            border-radius: 6px;
+            background-color: $mainColor;
+            width: 199px;
+            transition: all .3s ease;
+            &:hover{
+                background-color: #514899;
+                border: 1px solid #514899;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .img-wrapper{
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}

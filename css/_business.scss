@@ -1,0 +1,151 @@
+#business{
+    padding: 60px 0;
+    background-color: #f6f2f2;
+    .price-top{
+        .item{
+            text-align: center;
+            h5{
+                font-size: 16px;
+                font-weight: 700;
+                color: #F95D77;
+            }
+            h2{
+                color: #3F3F3F;
+                font-size: 42px;
+                font-weight: 800;
+            }
+        }
+    }
+    .price-bottom{
+        .content-white{
+            background-color: white;
+            border-radius: 7px;
+            .item{
+                h2{
+                    text-align: center;
+                    padding: 20px 0;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+                h3{
+                    padding: 15px 0;
+                    background-color: #F95D771A;
+                    border-style: solid;
+                    border-width: 2px 0px 0px 0px;
+                    border-color: #F95D77;
+                    text-align: center;
+                    color: $mainColor;
+                }
+                .money{
+                    background:#F95D771A;
+                    padding: 15px 0;
+                    border-style: solid;
+                    border-width: 2px 0px 0px 0px;
+                    border-color: #fb879a;
+                    text-align: center;
+                    color: $mainColor;
+                    font-family: "Raleway", Sans-serif;
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+                .list{
+                    padding: 8px 0;
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        margin-left: 10px;
+                        font-family: "Raleway", Sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 34px;
+                    }
+                }
+            }
+            .button{
+                text-align: center;
+                padding: 40px 0;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    border: 1px solid $mainColor;
+                    padding: 11px 40px;
+                    border-radius: 6px;
+                    background-color: $mainColor;
+                    transition: all .3s ease;
+                    display: inline-block;
+                    &:hover{
+                        background-color: #514899;
+                        border: 1px solid #514899;
+                    }
+                }
+            }  
+        }
+        .content-pink{
+            border-radius: 7px;
+            background-color: $mainColor;
+            .item{
+                position: relative;
+                overflow: hidden;
+                h2{
+                    text-align: center;
+                    padding: 20px 0;
+                    color: white;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+                .a{
+                    position: absolute;
+                    padding: 10px 81px;
+                    background: white;
+                    top: 7px;
+                    right: -63px;
+                    transform: rotate(42deg);
+                }
+                h3{
+                    background: #FFB1BE33;
+                    padding: 15px 0;
+                    border-style: solid;
+                    border-width: 2px 0px 0px 0px;
+                    border-color: #fb879a;
+                    text-align: center;
+                    color: white;
+                    font-family: "Raleway", Sans-serif;
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+                .list{
+                    padding: 8px 0;
+                    display: flex;
+                    justify-content: center;
+                    p{
+                        margin-left: 10px;
+                        font-family: "Raleway", Sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 34px;
+                        color: white;
+                    }
+                }
+            }
+            .button{
+                text-align: center;
+                padding: 40px 0;
+                a{
+                    text-decoration: none;
+                    color: $mainColor;
+                    border: 1px solid white;
+                    padding: 11px 40px;
+                    border-radius: 6px;
+                    background-color: white;
+                    transition: all .3s ease;
+                    display: inline-block;
+                    &:hover{
+                        background-color: #514899;
+                        border: 1px solid #514899;
+                        color: white;
+                    }
+                }
+            }  
+        }
+    }
+}

@@ -1,0 +1,88 @@
+#services{
+    .title{
+        .item{
+            h5{
+                font-size: 16px;
+                font-weight: 700;
+                color: $mainColor;
+            }
+            h2{
+                color: #3F3F3F;
+                font-size: 42px;
+                font-weight: 800;
+            }
+        }
+    }
+    .category{
+        display: flex;
+        justify-content: center;
+        .content{
+            position: relative;
+            height: 400px;
+            margin-bottom: 30px;
+            padding: 40px;
+            background-color: #fafafa;
+            transition: all .5s ease;
+            &:hover{
+                box-shadow: 1px 2px 18px 10px #fde5e9;
+            }
+            .icon-pink{
+                background-color: #FFD2DA80;
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+            }
+            .icon-blue{
+                background-color: rgb(244 243 252);
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+            }
+            .item{
+                h5{
+                    text-align: start;
+                    color: #514899;
+                    font-family: "Raleway", Sans-serif;
+                    font-size: 21px;
+                    font-weight: 700;
+                    line-height: 27px;
+                    margin-top: 30px;
+                }
+                p{
+                    color: #3F3F3F;
+                    font-family: "Raleway", Sans-serif;
+                }
+                img{
+                    position: absolute;
+                    bottom: 40px;
+                    right: 40px;
+                }
+            }
+        }
+        .button{
+            border: 1px solid $mainColor;
+            padding: 15px 40px;
+            border-radius: 6px;
+            background-color: $mainColor;
+            width: 199px;
+            transition: all .3s ease;
+            &:hover{
+                background-color: #514899;
+                border: 1px solid #514899;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+    }
+}

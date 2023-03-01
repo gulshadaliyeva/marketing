@@ -1,0 +1,92 @@
+@media (max-width: 1199.98px){
+    #ourWorking .item h1{
+        font-size: 48px;
+    }
+    #about-top .content .item h2{
+        font-size: 32px;
+    }
+}
+@media (min-width: 992px){
+    #about-top .rigt-side{
+        position: relative;
+    }
+}
+
+@media (max-width: 991.98px){
+    #ourWorking .item h1{
+        text-align: center;
+    }
+    #ourWorking .item p{
+        margin: 20px 0;
+        text-align: center;
+    }
+    #ourWorking .item .button{
+        margin: 0 auto;
+    }
+    #ourWorking{
+        background-image: url('../img/Frame-58.webp');
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #ffffffa6;
+        background-blend-mode: color;
+    }
+    #advantages{
+        padding-top: 60px;
+    }
+    #about-bottom .content .button{
+        margin: 0 auto;
+    }
+    #advantages .advantages-top .item h2, 
+    #services .title .item h2,
+    #business .price-top .item h2,
+    #works .category .content .item h2,
+    #news .title .content .item h2,
+    #ourWorking .item h1, 
+    #about-bottom .content h2{
+        font-size: 32px;
+    }
+    #about-top .content{
+        padding: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+    #about-top .content .item h2{
+        font-size: 24px;
+    }
+    #about-top .content .icon{
+        top: 0;
+        left: 50%;
+    }
+}
+@media (max-width: 767.98px){
+    #advantages .advantages-top .item h2, 
+    #services .title .item h2,
+    #business .price-top .item h2,
+    #works .category .content .item h2,
+    #news .title .content .item h2,
+    #ourWorking .item h1,
+    #about-bottom .content h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+    }
+    #advantages .advantages-top .item h5{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #advantages .advantages-bottom .content .item h5{
+        font-size: 16px;
+    }
+    #footer-top .top .content h5,
+    #footer-top .top .content ul li a,
+    #footer-top .top .contact .adress a,
+    #footer-top .top .contact .telephone a,
+    #footer-top .top .contact .email a,
+    #works .category .content .item ul li a{
+        font-size: 12px;
+    }
+}
